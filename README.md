@@ -3,4 +3,4 @@
 > 2024.11.17 알고리즘 공부 재개
 
 [![Solved.ac
-프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={jini00})](https://solved.ac/{jini00})
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=jini00)](https://solved.ac/jini00)
