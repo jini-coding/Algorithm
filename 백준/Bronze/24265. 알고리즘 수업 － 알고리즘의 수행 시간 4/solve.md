@@ -38,5 +38,5 @@ int main() {
 > ...   
 > ...   
 > i = n-1, j = 1번 수행   
-> 즉 $\sum_{k=1}^{n-1} k = \frac{n(n-1)}{2}$ 번 수행   
+> 즉 $\displaystyle\sum_{k=1}^{n-1} k = \frac{n(n-1)}{2}$ 번 수행   
 
