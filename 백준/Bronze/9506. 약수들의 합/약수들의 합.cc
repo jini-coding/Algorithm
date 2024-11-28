@@ -18,28 +18,27 @@ int main() {
         
         if (n == -1) break;
         
+        //수정 -- else문 해체
+        int sum = 0;
+        vector<int> v;
+        
+        for (int i = 1; i < n; i++) {
+            if (n % i == 0) {
+                v.push_back(i);
+                sum += i;
+            }
+        }
+        
+        if (sum == n) {
+            cout << n << " = ";
+            
+            for (int i = 0; i < v.size() - 1; i++) {
+                cout << v[i] << " + ";
+            }
+            cout << v[v.size() - 1] << "\n";
+        }
         else {
-            int sum = 0;
-            vector<int> v;
-            
-            for (int i = 1; i < n; i++) {
-                if (n % i == 0) {
-                    v.push_back(i);
-                    sum += i;
-                }
-            }
-            
-            if (sum == n) {
-                cout << n << " = ";
-                
-                for (int i = 0; i < v.size() - 1; i++) {
-                    cout << v[i] << " + ";
-                }
-                cout << v[v.size() - 1] << "\n";
-            }
-            else {
-                cout << n << " is NOT perfect." << "\n";
-            }
+            cout << n << " is NOT perfect." << "\n";
         }
     }
     
